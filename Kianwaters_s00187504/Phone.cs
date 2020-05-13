@@ -15,5 +15,14 @@ namespace Kianwaters_s00187504
         public string OperatingSystem { get; set; }
         public string OS_Image { get; set; }
         public string Phone_string { get; set; }
+
+        //Ex3
+        //Creating a method which tale percentage value and then increases the price by that value
+        public void IncreasePrice(double StartingPrice, double PercentageValue)
+        {
+            Price = (StartingPrice * PercentageValue) + StartingPrice;
+        }
     }
+
+   
 }
