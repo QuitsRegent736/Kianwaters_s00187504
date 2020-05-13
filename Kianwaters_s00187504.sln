@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kianwaters_s00187504", "Kia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phone_TEST", "Phone_TEST\Phone_TEST.csproj", "{DA88CC1B-9790-4DF9-8701-266CF230D78E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Databse", "Databse\Databse.csproj", "{38BA021F-AA5A-4081-97EC-BEB7F595EDBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DA88CC1B-9790-4DF9-8701-266CF230D78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA88CC1B-9790-4DF9-8701-266CF230D78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA88CC1B-9790-4DF9-8701-266CF230D78E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38BA021F-AA5A-4081-97EC-BEB7F595EDBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BA021F-AA5A-4081-97EC-BEB7F595EDBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BA021F-AA5A-4081-97EC-BEB7F595EDBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BA021F-AA5A-4081-97EC-BEB7F595EDBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
