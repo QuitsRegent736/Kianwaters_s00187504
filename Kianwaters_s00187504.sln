@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phone_TEST", "Phone_TEST\Ph
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Databse", "Databse\Databse.csproj", "{38BA021F-AA5A-4081-97EC-BEB7F595EDBD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{44BFEDCE-98DC-4F75-987C-2016F05EE19A}"
+	ProjectSection(SolutionItems) = preProject
+		images\android.png = images\android.png
+		images\apple.png = images\apple.png
+		images\iphone11.png = images\iphone11.png
+		images\s20.jpg = images\s20.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

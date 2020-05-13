@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,7 +25,12 @@ namespace Kianwaters_s00187504
         }
 
         //Ex5
-        public List<Phone> Phones { get; set; }
+        public class Phones : DbContext
+        {
+            public Phones() : base("Phones") { }
+            public DbSet<Phone> Phone { get; set; }
+        }
+
 
     }
 
